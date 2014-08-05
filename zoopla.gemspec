@@ -21,7 +21,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency(%q<hashie>, ["~> 1.0.0"])
   s.add_dependency(%q<curb>, ["~> 0.7.12"])
-  s.add_dependency(%q<json>, ["~> 1.4.3"])
+  s.add_dependency(%q<json>, ["~> 1.8.1"])
 
-  s.add_development_dependency(%q<mocha>, ["~>  0.9.12"])
+  s.add_development_dependency(%q<mocha>, ["~> 0.14.0"])
+  s.add_development_dependency(%q<rake>, ["~> 10.3.2"])
 end
